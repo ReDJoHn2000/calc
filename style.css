@@ -99,6 +99,10 @@ footer{
     height: 48px;
 }
 
+.btn:hover{
+    cursor:pointer;
+}
+
 .btn-spec{
 border: 1px solid var(--Stroke, #464647);
 background: #585859;
