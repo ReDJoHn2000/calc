@@ -5,50 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="calc">
             <header>
-                <div class="buttons1">
-                    <button id="exit" title="x"><strong></strong></button>
-                    <button id="collapse" title="-"><strong></strong></button>
-                    <button id="science" title="+"><strong></strong></button>
+                <div class="top-btns">
+                    <button class="exit-btn" title="x"></button>
+                    <button class="collapse-btn" title="-"></button>
+                    <button class="science-btn" title="+"></button>
                 </div>
                 <div class="result">0</div>
             </header>
             <footer>
-
-                <div class="left">
-                    <nav>
-                        <button id="nav">AC</button>
-                        <button id="nav">+/-</button>
-                        <button id="nav">%</button>
-                    </nav>
-                    <main>
-                        <button id="main">7</button>
-                        <button id="main">8</button>
-                        <button id="main">9</button>
-                        <button id="main">4</button>
-                        <button id="main">5</button>
-                        <button id="main">6</button>
-                        <button id="main">1</button>
-                        <button id="main">2</button>
-                        <button id="main">3</button>
-                        <button id="zero">0</button>
-                        <button id="main">.</button>
-                    </main>
-                </div>
-                <div class="right">
-                    <aside>
-                        <button id="aside">÷</button>
-                        <button id="aside">x</button>
-                        <button id="aside">-</button>
-                        <button id="aside">+</button>
-                        <button id="equal">=</button>
-                    </aside>
-                </div>
-                
+                        <button class="btn btn-spec">AC</button>
+                        <button class="btn btn-spec">+/-</button>
+                        <button class="btn btn-spec">%</button>
+                        <button class="btn btn-operation">÷</button>
+                        <button class="btn btn-number">7</button>
+                        <button class="btn btn-number">8</button>
+                        <button class="btn btn-number">9</button>
+                        <button class="btn btn-operation">x</button>
+                        <button class="btn btn-number">4</button>
+                        <button class="btn btn-number">5</button>
+                        <button class="btn btn-number">6</button>
+                        <button class="btn btn-operation">-</button>
+                        <button class="btn btn-number">1</button>
+                        <button class="btn btn-number">2</button>
+                        <button class="btn btn-number">3</button>
+                        <button class="btn btn-operation">+</button>
+                        <button class="btn btn-zero">0</button>
+                        <button class="btn btn-number">.</button>
+                        <button class="btn btn-equal">=</button>
             </footer>
             </div>
         </div>
